@@ -3,7 +3,38 @@
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background: rgb(15, 85, 85);
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 0 3px 2px;
+}
+
+.pergunta h1 {
+    text-align: center;
+}
+
+.respostas {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 15px;
+
 }
 
