@@ -1,3 +1,4 @@
+
 let perguntaAle, perguntaEscolha
 const botaoIniciar = document.getElementById('btnI')
 const botaoProximo = document.getElementById('proximoBtn')
@@ -21,6 +22,11 @@ function iniciarQuiz() {
     perguntaEscolha = 0
     proximaPg()
   }
+
+  document.querySelector('reiniciar').addEventListener('click', function(){
+    window.location.reload();
+    return false
+  });
 
   function proximaPg() {
     mostrarPerguntas(perguntaAle[perguntaEscolha])
