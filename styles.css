@@ -40,7 +40,7 @@ body {
     padding: 15px;
 }
 
-.containerQuiz {
+.containerPrincipal {
     width: 600px;
     height: 400px;
     background-color: #fff;
@@ -50,7 +50,7 @@ body {
     display: none;
 }
 
-.pergunta h1 {
+.pergunta {
     text-align: center;
 }
 

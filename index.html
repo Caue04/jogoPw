@@ -11,7 +11,7 @@
     
     <!--Primeira Pagina Para Iniciar o Quiz-->
     
-    <div class="containerIniciar">
+    <div class="containerIniciar" id="iniciarPrincipal">
         <div class="quizNome">
             <h1>Quiz PW</h1>
         </div>
@@ -21,24 +21,23 @@
     </div>
     
     <!--Container do Quiz-->
-
-    <div class="containerQuiz">
-        <div class="pergunta">
-            <h1>Pergunta Teste</h1>
-        </div>
-        <div class="respostas">
-           <button id="rsp1" class="btn">Teste</button>
-           <button id="rsp2" class="btn">Teste</button>
-           <button id="rsp3" class="btn">Teste</button>
-           <button id="rsp4" class="btn">Teste</button>
+    <div class="containerPrincipal" id="principalQ">
+        <div id="quizPrincipal" class="containerQuiz">
+            <div id="perguntaJs" class="pergunta">Pergunta</div>
+            <div id="rsp" class="respostas">
+                <button class="btn">teste</button>
+                <button class="btn">teste</button>
+                <button class="btn">teste</button>
+                <button class="btn">teste</button>
+            </div>    
         </div>
         <div class="botoesFinal">
             <button class="btn" id="reiniciar">reiniciar</button>
-            <button class="btn" id="proximo">próximo</button>
+            <button class="btn" id="proximoBtn">próximo</button>
             <button class="btn" id="finalizar">finalizar</button>
         </div>
     </div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
